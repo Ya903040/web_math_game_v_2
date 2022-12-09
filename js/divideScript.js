@@ -1,12 +1,12 @@
 let n1 = Math.floor(Math.random() * 81 + 20)
 let n2 = Math.floor(Math.random() * 9 + 2);
-
+n1 = ((n1 / n2) | 0) * n2;
 document.getElementById("firstNum").value = n1;
 document.getElementById("secondNum").value = n2;
 
 
 
-let adds = ':)';
+let adds = n1/n2;
 
 function GameForDiv() {
     let user = document.getElementById("inputNum").value;
@@ -25,7 +25,7 @@ function GameForDiv() {
 
 
 
-    let a = fn().join('/');
+    a = fn().join('/');
     function fn() {
         n1 = Math.floor(Math.random() * 81 + 20);
         n2 = Math.floor(Math.random() * 9 + 2);

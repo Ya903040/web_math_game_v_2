@@ -18,7 +18,7 @@ function GameForSub() {
     user = document.getElementById("inputNum").value = " ";
 
 
-    n1 = Math.floor(Math.random() * 30 + 1);
+    n1 = Math.floor(Math.random() * 31 + 1);
     n2 = Math.floor(Math.random() * 29 + 1);
 
     document.getElementById("firstNum").value = n1;
