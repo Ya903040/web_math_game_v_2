@@ -2,8 +2,10 @@
 let moment = require("moment");
 let myDate = new Date();
 let myCoolDate = moment(myDate).format("LLLL");
+
+document.write(myCoolDate);
 console.log(myCoolDate);
-console.log(5+5);
+console.log('df');
 },{"moment":2}],2:[function(require,module,exports){
 //! moment.js
 //! version : 2.29.4
