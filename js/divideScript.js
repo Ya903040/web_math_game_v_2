@@ -25,7 +25,7 @@ function GameForDiv() {
 
 
 
-    a = fn().join('/');
+    let a = fn().join('/');
     function fn() {
         n1 = Math.floor(Math.random() * 81 + 20);
         n2 = Math.floor(Math.random() * 9 + 2);
