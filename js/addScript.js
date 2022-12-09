@@ -26,3 +26,4 @@ function GameForAdd() {
 
     adds = n1 + n2;
 }
+/*kadyrmamat
