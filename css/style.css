@@ -1,7 +1,7 @@
 @media only screen and (min-width: 300px) {
     .labels{
-        font-size: 1.3rem;
-        background: greenyellow;
+        font-size: 1rem;
+        background: lightcoral;
     }
 
 
@@ -14,12 +14,13 @@
         background: greenyellow;
     }
 
+
 }
 
 @media only screen and (min-width: 768px) {
     .labels{
         font-size: 1.5rem;
-        background: aquamarine;
+        background: lightseagreen;
     }
 
 }
