@@ -1,11 +1,27 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 let moment = require("moment");
+
 let myDate = new Date();
 let myCoolDate = moment(myDate).format("LLLL");
 
 document.write(myCoolDate);
 console.log(myCoolDate);
-console.log('df');
+console.log('dауауаf');
+
+
+    let countdown = 10;
+    let intervalID = setInterval(function () {
+        // Decrement the countdown
+        countdown--;
+
+        // Update the countdown on the page
+        document.getElementById("timer").innerHTML = countdown;
+
+        // If the countdown reaches zero, redirect the page
+        if (countdown === 0) {
+            location.href = "time_is_up.html";
+        }
+    }, 1000);
 },{"moment":2}],2:[function(require,module,exports){
 //! moment.js
 //! version : 2.29.4
