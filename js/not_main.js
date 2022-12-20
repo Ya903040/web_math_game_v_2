@@ -1,4 +1,6 @@
 let countdown = 30;
+
+
 let intervalID = setInterval(function () {
     // Decrement the countdown
     countdown--;
@@ -8,6 +10,7 @@ let intervalID = setInterval(function () {
 
     // If the countdown reaches zero, redirect the page
     if (countdown === 0) {
-        location.href = "../pages/time_is_up.html";
+        location.href = "../time_is_up.html";
     }
 }, 1000);
+
