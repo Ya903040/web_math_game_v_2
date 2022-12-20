@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+<script src="../js/fetch.js"></script>
+<div class="main-container">
+  <h1>this is weather api</h1>
+
+  <section class="main">
+    <div>
+
+      <label>
+        <input type="text" class="labels" placeholder="enter city name" id="input_city">
+      </label>
+      <button id="button_city" class="btn" onclick="myWeatherClick()">push</button>
+
+
+      <p>description weather:
+        <mark id="description_weather"></mark>
+      </p>
+
+      <p>temp:
+        <mark id="temp"></mark>
+      </p>
+
+      <p>feels like:
+        <mark id="feels_like"></mark>
+      </p>
+
+      <p>temp min:
+        <mark id="temp_min"></mark>
+      </p>
+
+      <p>temp max:
+        <mark id="temp_max"></mark>
+      </p>
+
+
+      <p>humidity:
+        <mark id="humidity"></mark>
+      </p>
+
+
+      <p>speed:
+        <mark id="speed"></mark>
+      </p>
+
+      <div class="boxForButton">
+        <a class="aAsButton" href="../index.html">back</a>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+</body>
+</html>
