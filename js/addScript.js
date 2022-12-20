@@ -16,7 +16,7 @@ function GameForAdd() {
 
         document.getElementById("ans").innerHTML = "Well Done! Your Answer is Correct";
     } else {
-        document.getElementById("ans").innerHTML = "Correct Answer " + adds + " . Try Again";
+        document.getElementById("ans").innerHTML = "Correct Answer was " + adds + " . Try Again";
     }
 
     user = document.getElementById("inputNum").value = "";

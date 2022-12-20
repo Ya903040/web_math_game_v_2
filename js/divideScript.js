@@ -3,6 +3,7 @@ let n2 = Math.floor(Math.random() * 9 + 2);
 n1 = ((n1 / n2) | 0) * n2;
 document.getElementById("firstNum").value = n1;
 document.getElementById("secondNum").value = n2;
+let correctAnswers = 0;
 
 
 
@@ -12,9 +13,11 @@ function GameForDiv() {
     let user = document.getElementById("inputNum").value;
 
     if (user == adds) {
+        correctAnswers ++;
+        document.getElementById("score").innerHTML = correctAnswers;
         document.getElementById("ans").innerHTML = "Well Done! Your Answer is Correct";
     } else {
-        document.getElementById("ans").innerHTML = "Correct Answer " + adds + " . Try Again";
+        document.getElementById("ans").innerHTML = "Correct Answer was " + adds + " . Try Again";
     }
 
     user = document.getElementById("inputNum").value = "";

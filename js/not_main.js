@@ -14,3 +14,10 @@ let intervalID = setInterval(function () {
     }
 }, 1000);
 
+
+/*
+let aaaa = correctAnswers;
+document.getElementById("score_").innerHTML = aaaa;
+console.log(aaaa);
+*/
+
