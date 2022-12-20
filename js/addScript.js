@@ -1,6 +1,6 @@
 let n1 = Math.floor(Math.random() * 30 + 1);
 let n2 = Math.floor(Math.random() * 29 + 1);
-
+/*оор*/
 document.getElementById("firstNum").value = n1;
 document.getElementById("secondNum").value = n2;
 
